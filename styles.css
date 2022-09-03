@@ -9,17 +9,18 @@ body{
     border-radius: 30px;
     background-color:rgba(128, 128, 128, 0.185);
     align-self: center;
-    justify-self: center;
+    justify-self: start;
 }
 
 .magnify{
     align-self: center;
     justify-self: center;
+    margin-top:30px;
 }
 
 .right_tab {
     align-self: center;
-    justify-self: center;
+    justify-self: start;
     display:grid;
     grid-template-columns: 50px 50px 140px;
 }
@@ -29,9 +30,16 @@ body{
     justify-self: center;
 }
 
+.bell {
+    margin-top:30px;
+}
+
+
+
 .top{
     display:grid;
-    grid-template-columns: 100px repeat(2, 1fr);
+    grid-template-columns: 700px 200px;
+    gap:10em;
 }
 
 .top > h3 {
@@ -41,6 +49,11 @@ body{
 .intro {
     display: grid;
     grid-template-columns: 1fr 4fr 4fr;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .profile_pic {
@@ -97,6 +110,7 @@ button{
 
 .icon {
     height: 20px;
+    
     margin-bottom: 30px;
 }
 
