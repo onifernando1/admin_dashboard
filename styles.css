@@ -39,7 +39,7 @@ body{
 .top{
     display:grid;
     grid-template-columns: 700px 200px;
-    gap:10em;
+    gap:18em;
 }
 
 .top > h3 {
@@ -54,6 +54,8 @@ body{
 .search{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left:80px;
+    gap:2em;
 }
 
 .profile_pic {
@@ -82,14 +84,14 @@ button{
 
 .hi  {
     font-weight: 600;
-    font-size:.8em;
+    font-size:1em;
     margin-top:20px;
     margin-bottom:0px;
 }
 
 .hi + p {
     font-weight: 600;
-    font-size:1.3em;
+    font-size:1.7em;
     margin-top:5px;
 }
 
@@ -121,6 +123,7 @@ button{
 
 .logo{
     height:90px;
+    margin-top:40px;
     
 }
 
@@ -134,7 +137,9 @@ button{
 .menu{
     display: grid;
     grid-template-columns: 1fr 6fr;
-    width:230px
+    width:230px;
+    margin-top:100px;
+    margin-left:15px;
 }
 
 .menu_list {
