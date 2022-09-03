@@ -10,72 +10,101 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="logo"></div>
+            <div class="logo_container">
+                <img class="logo" src="logo.png">
+            </div>
             <div class="menu">
                 <div class="icons">
                     <img class="icon" src="icons8-home-48.png">
                     <img class="icon" src="account-circle-outline.png">
                     <img class="icon" src="comment-multiple.png">
                     <img class="icon" src="clock-time-four.png">
-                    <img class="icon" src="magnify.png">
                     <img class="icon" src="note-alert.png">
                     <img class="icon" src="wrench.png">
                     <img class="icon" src="account-group.png">
-                    <img class="icon" src="bell-alert.png">
                     <img class="icon" src="lock-open.png">
                 </div>
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
-                </ul>
-                <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
-                </ul>
+                <div class="full_menu">
+                    <ul>
+                        <li class="menu_list">Home</li>
+                        <li class="menu_list">Profile</li>
+                        <li class="menu_list">Messages</li>
+                        <li class="menu_list">History</li>
+                        <li class="menu_list">Tasks</li>
+                        <li class="menu_list">Communities</li>
+                    </ul>
+                    <ul>
+                        <li class="menu_list">Settings</li>
+                        <li class="menu_list">Support</li>
+                        <li class="menu_list">Privacy</li>
+                    </ul>
+                </div>
             </div>
         </div>
         
         <div class="header">
-            <div class="searchbar"></div>
-            <div class="bell"></div>
-            <div class="mini_profile_photo"></div>
-            <div class="name">Oni Fernando</div>
-            <div class="profile_image"></div>
-            <div class="welcome">
-                <p>Hi there,</p>
-                <p>Oni Fernando (@onifernando)</p>
+            <div class="top">
+                <img class="icon magnify" src="magnify.png">
+                <div class="searchbar"></div>
+                <div class="right_tab">
+                    <img class="icon bell" src="bell-alert-outline.png">
+                    <img src="account-circle.png">
+                    <h3>Oni Fernando</h3>
+                </div>
             </div>
-            <div class="buttons">
-                <ul>
-                    <li>New</li>
-                    <li>Upload</li>
-                    <li>Share</li>
-                </ul>
+            
+            <div class="intro">
+                <img class="profile_pic" src="proifle.png">
+                <div class="welcome">
+                    <p class="hi">Hi there,</p>
+                    <p>Oni Fernando (@onifernando)</p>
+                </div>
+                <div class="buttons">
+                   <button>New</button>
+                   <button>Upload</button>
+                   <button>Share</button>
+
+                </div>
             </div>
         </div>
         <div class="main">
             <div class="projects">
-                <h1>Your projects</h1>
+                <h3>Your projects</h3>
                 <div class="main_grid">
                     <div class="project_grid">
-                        <div class="project chess">Ruby Chess</div>
-                        <div class="project admin">Admin Page</div>
-                        <div class="project tictactoe">TicTacToe</div>
-                        <div class="project connect">Connect Four</div>
-                        <div class="project mastermind">Mastermind</div>
-                        <div class="project etch">Etch a sketch</div>
+                        <div class="project chess">
+                            <h3>Ruby Chess</h3>
+                            <p>A command line chess made using ruby. Utilizing OOP, binary search trees, testing, serializing and git.  A great way to solidify my knowledge of ruby.</p>
+                        </div>
+                        <div class="project admin">
+                            <h3>Admin Page</h3>
+                            <p>An opportunity to practice some more advanced html and CSS skills. I used my new CSS grid skills to arrange the layout.</p>
+                        </div>
+                        <div class="project tictactoe">
+                            <h3>TicTacToe</h3>
+                            <p>A small tic tac toe game, some of my first work using objects in ruby. I got to understand how to use objects, classes, methods and conditionals.</p>
+                        </div>
+                        <div class="project connect">
+                            <h3>Connect Four</h3>
+                            <p>A connect four game, where I used the colorize gem to add some colours to the command line. Practiced using serialization and some testing.</p>
+                        </div>
+                        <div class="project mastermind">
+                            <h3>Mastermind</h3>
+                            <p>A simple mastermind game, that required me to use my logical thinking skills. I created a very basic computer program to guess the players colour.</p>
+                        </div>
+                        <div class="project etch">
+                           <h3>Etch a sketch</h3> 
+                           <p>A showcase of some javascript skills, using grid and objects. Very colourful, fun and one of my first projects using html, css and javascript.</p>
+                        </div>
                     </div>
                     <div class="right">
+                        <h3 class="announcements_header">Announcements</h3>
                         <div class="announcements">
                             <div>Site Maintenance</div>
                             <div>Community Share Day</div>
                             <div>Updated Privacy Policy</div>
                         </div>
+                        <h3 class="trending_header">Trending</h3>
                         <div class="trending">
                             <div class="acc_one">
                                 <div>@tegan</div>
