@@ -48,7 +48,8 @@ body{
 
 .intro {
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr;
+    grid-template-columns: 150px 450px 400px;
+
 }
 
 .search{
@@ -67,6 +68,9 @@ body{
 .buttons{
     display:grid;
     grid-template-columns: repeat(3, 140px);
+    align-self: center;
+    justify-self: start;
+    margin-left:300px;
 }
 
 
@@ -97,7 +101,7 @@ button{
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: minmax(300px,3%) 6fr;
     grid-template-rows: 1fr 6fr ;
 }   
 
@@ -140,6 +144,7 @@ button{
     width:230px;
     margin-top:100px;
     margin-left:15px;
+    justify-self: center;
 }
 
 .menu_list {
